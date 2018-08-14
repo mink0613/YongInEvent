@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.webkit.WebView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:layout_weight="1"
+        android:id="@+id/eventWebView" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/shareButtons">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/kakaotalk"
+            android:text="K"
+            android:layout_marginBottom="5dp" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/line"
+            android:text="L"
+            android:layout_marginBottom="5dp" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/facebook"
+            android:text="F"
+            android:layout_marginBottom="5dp" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="S"
+            android:id="@+id/sms" />
+    </LinearLayout>
+</LinearLayout>
